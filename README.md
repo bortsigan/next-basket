@@ -10,8 +10,11 @@ docker exec -it "container_id" /bin/bash (for windows)
 once you're in the container, run the following: A. composer install --verbose --ignore-platform-reqs B. cp .env.example .env C. php artisan key:generate D. php artisan config:clear
 Perform the following to test the ./users
 
-Open postman and copy the following: URL: "http://localhost:8081/api/users" Body: { "email": "aaaaaa@gmail.com.ph", "first_name": "abcdit", "last_name": "1111Oh yeah" }
-
+Open postman and copy the following: 
+```
+URL: "http://localhost:8081/api/users" 
+Body: { "email": "aaaaaa@gmail.com.ph", "first_name": "abcdit", "last_name": "1111Oh yeah" }
+```
 PS: make sure the request type is POST
 
 and the execute send
