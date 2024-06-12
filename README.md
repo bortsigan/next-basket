@@ -20,7 +20,12 @@ Body: { "email": "johndoe@gmail.com.ph", "first_name": "John", "last_name": "Doe
 
 and the click send button
 
-### to check the Queueing in the RABBITMQ open this url " http://localhost:15672/#/ " username/password: guest / guest
+### to check the Queueing in the RABBITMQ open this 
+```
+url " http://localhost:15672/#/ " 
+username: guest
+pw: guest
+```
 
 ### Perform the ./notifications testing in pulling the queued datas
 
