@@ -41,7 +41,8 @@ class RabbitMQService
         );
         $channel = $connection->channel();
         $callback = function ($msg) {
-            echo ' [x] Received ', $msg->body, "\n";
+            echo '[x] Received: ' . $msg->body;
+            \Log::info('[x] Received: ' . $msg->body);
         };
 
 
