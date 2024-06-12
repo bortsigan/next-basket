@@ -2,12 +2,13 @@
 
 ### Clone the repository
 1. cd ./path/to/your/folder
-2. Once you're in the folder, open the terminal where the project is located and then run "docker-compose up --build -d"
-3. Setup the ./users service and ./notifications service
+2. git clone https://github.com/bortsigan/next-basket.git
+3. Once you're in the folder, open the terminal where the project is located and then run "docker-compose up --build -d"
+4. Setup the ./users service and ./notifications service
 
-4. run the docker ps in the terminal
-5. docker exec -it "container_id" /bin/bash (for windows)
-6. once you're in the container, run the following: A. composer install --verbose --ignore-platform-reqs B. cp .env.example .env C. php artisan key:generate D. php artisan config:clear
+5. run the docker ps in the terminal
+6. docker exec -it "container_id" /bin/bash (for windows)
+7. once you're in the container, run the following: A. composer install --verbose --ignore-platform-reqs B. cp .env.example .env C. php artisan key:generate D. php artisan config:clear
 
 ### Perform the following to test the ./users
 
